@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 
+import 'core/routes/onGenerateRoute.dart';
 import 'core/routes/routes.dart';
 import 'core/theme/theme_constant.dart';
 import 'feature/splash/view/splash_view.dart';
@@ -22,6 +23,7 @@ class MyApp extends StatelessWidget {
       themeMode: ThemeMode.light,
       initialRoute: SplashView.routeName,
       routes: routes,
+      onGenerateRoute: generateRoute,
     );
   }
 }

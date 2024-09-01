@@ -13,6 +13,7 @@ class SplashViewModel extends ChangeNotifier {
       debugPrint("Wait for 4 seconds");
       if (isLogin) {
       } else {
+        if (!context.mounted) return;
         Navigator.pushNamedAndRemoveUntil(context, LoginView.routeName, (route) => false);
       }
       setLoader();

@@ -1,5 +1,6 @@
 import 'package:flutter/cupertino.dart';
 
+import '../../feature/announcements/view/add_announcement_view.dart';
 import '../../feature/media/view/media_view.dart';
 import '../../feature/bottom_navigation/view/bottom_navigation_view.dart';
 import '../../feature/home/view/home_view.dart';
@@ -11,5 +12,6 @@ Map<String, WidgetBuilder> routes = {
   LoginView.routeName: (context) => const LoginView(),
   HomeView.routeName: (context) => const HomeView(),
   MediaView.routeName: (context) => const MediaView(),
+  AddAnnouncementView.routeName: (context) => AddAnnouncementView(),
   BottomNavigationView.routeName: (context) => const BottomNavigationView(),
 };

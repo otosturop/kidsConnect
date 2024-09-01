@@ -1,1 +1,1 @@
-const double appbarHeight = 90.0;
+const double appbarHeight = 70.0;

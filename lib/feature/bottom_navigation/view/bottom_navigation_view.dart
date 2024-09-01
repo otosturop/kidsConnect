@@ -69,7 +69,7 @@ class BottomNavigationView extends ConsumerWidget {
         },
         shadow: BoxShadow(
           offset: const Offset(0, 2),
-          blurRadius: 15,
+          blurRadius: 10,
           color: Colors.grey.shade700,
         ),
         backgroundColor: myOnSecondaryColor,

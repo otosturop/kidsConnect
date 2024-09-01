@@ -7,6 +7,7 @@ Widget floatingActionButtonWidget(BuildContext context) {
   return Padding(
     padding: const EdgeInsets.only(top: 40.0),
     child: FloatingActionButton(
+      heroTag: "btn1",
       onPressed: () {},
       backgroundColor: myPrimaryColor,
       foregroundColor: Colors.white,
